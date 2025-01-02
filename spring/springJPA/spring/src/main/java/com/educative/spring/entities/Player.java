@@ -12,7 +12,15 @@ public class Player {
 
     @OneToOne
     @JoinColumn(name = "profile_id", referencedColumnName = "id")
-    private PlayerProfile profile;
+    private PlayerProfile playerProfile;
+
+    public PlayerProfile getPlayerProfile() {
+        return playerProfile;
+    }
+
+    public void setPlayerProfile(PlayerProfile playerProfile) {
+        this.playerProfile = playerProfile;
+    }
 
     @Override
     public String toString() {

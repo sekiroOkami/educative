@@ -1,13 +1,13 @@
-package io.jarburg.ThyleafAndSpringBoot;
+package com.tamingthymeleaf.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ThyleafAndSpringBootApplication {
+public class TamingThymeleafApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ThyleafAndSpringBootApplication.class, args);
+		SpringApplication.run(TamingThymeleafApplication.class, args);
 	}
 
 }
